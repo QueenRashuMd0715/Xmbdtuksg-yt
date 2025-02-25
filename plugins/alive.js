@@ -15,15 +15,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Generate system status message
         const status = `*👋 𝐇ʏᴇ ${pushname} 𝐈 𝐀ᴍ 𝐎ɴʟɪɴᴇ 𝐍ᴏᴡ 🫟*
 
-*♡︎•━━ ❖ 𝐐𝐔𝐄𝐄𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃 𝐕2 ❖ ━━•♡︎*
+*-          𓆩⳻᷼⳺ 🫟𝐑𝐀𝐒𝐇𝐔 𝐌𝐃‼️ ⳻᷼⳺𓆪*         ـ
 
-> *☆ Rᴜɴᴛɪᴍᴇ :* _${runtime(process.uptime())}_
-• <><><><><><><><><><><><><><> •
-> *☆ Rᴀᴍ Uꜱᴀɢᴇ :* _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB_
-• <><><><><><><><><><><><><><> •
-> *☆ Hᴏꜱᴛ Nᴀᴍᴇ :* _${os.hostname()}_
-• <><><><><><><><><><><><><><> •
-> *☆ Oᴡɴᴇʀ :* _Nipun Harshana_
+╭•╼━═━━≺• 𝔸𝕃𝕀𝕍𝔼 •≻━━═━╾•╮
+> *𖤩  {🔥} 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 :* _${runtime(process.uptime())}_
+> *𖤩  {🦠} 𝐑𝐀𝐌 𝐔𝐒𝐀𝐆𝐄 :* _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB_
+> *𖤩  {🗡} 𝐇𝐎𝐒𝐓 𝐍𝐀𝐌𝐄 :* _${os.hostname()}_
+> *𖤩  {✨} 𝐎𝐖𝐍𝐄𝐑 :* _Nipun Harshana_
+╰•╼━═━━≺𝕋ℍ𝔸ℕ𝐊𝕊≻━━═━╾•╯
 
 > *𝙿𝙾𝚆𝙴𝙰𝚁𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝚁𝙰𝚂𝙷𝚄 𝙼𝙳 🫟*`;
 
@@ -37,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363357105376275@g.us@newsletter',
-                    newsletterName: '🫟𝐐𝚵𝚵𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃‼️',
+                    newsletterName: '👾 𝐐𝚵𝚵𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃‼️',
                     serverMessageId: 143
                 }
             }
